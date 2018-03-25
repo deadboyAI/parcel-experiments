@@ -1,0 +1,27 @@
+{
+  "name": "parcel-experiments",
+  "version": "1.0.0",
+  "description": "Setting up a professional React project with Parcel as a code bundler.",
+  "main": "index.js",
+  "repository": "https://github.com/deadboyAI/parcel-experiments",
+  "author": "deadboyai <deadboysai@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "postcss-modules": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "typography": "^0.16.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.8.3"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build --public-url ./"
+  }
+}
